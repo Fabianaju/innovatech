@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <!-- Link to Custom CSS Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Font Awesome Icons Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Site de Portfólio</title>
+</head>
+<body>
+    <div class="homeSection active">
+        <div class="navBar">
+            <div class="logo">
+                <h1>Innovatech</h1>
+            </div>
+            <ul class="navList">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+        <div class="banner">
+            <div class="info">
+                <h1>Bem-vindo ao <span style="color: #4CAF50;">Innovatech</span></h1>
+                <h2>Explore nossos serviços</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec dui euismod, tempus mi et, hendrerit felis.</p>
+                <div class="socialMedia">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="image1.png" alt="Banner">
+            </div>
+        </div>
+    </div>
+
+    <div class="aboutSection" id="about">
+        <div class="container">
+            <div class="aboutImage">
+                <img src="aboutImage.png" alt="About Image">
+            </div>
+            <div class="aboutContent">
+                <h2>Sobre Nós</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec dui euismod, tempus mi et, hendrerit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer ornare dolor nec dictum ullamcorper.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="servicesSection" id="services">
+        <div class="container">
+            <h2>Serviços</h2>
+            <div class="serviceItem">
+                <i class="fas fa-laptop"></i>
+                <h3>Design Web</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            </div>
+            <div class="serviceItem">
+                <i class="fas fa-camera"></i>
+                <h3>Fotografia</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            </div>
+            <div class="serviceItem">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Design Gráfico</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolioSection" id="portfolio">
+        <div class="container">
+            <h2>Portfólio</h2>
+            <div class="portfolioGrid">
+                <div class="portfolioItem">
+                    <img src="portfolio1.png" alt="Portfolio Item">
+                    <h3>Projeto 1</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="portfolioItem">
+                    <img src="portfolio2.png" alt="Portfolio Item">
+                    <h3>Projeto 2</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="portfolioItem">
+                    <img src="portfolio3.png" alt="Portfolio Item">
+                    <h3>Projeto 3</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contactSection" id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form>
+                <div class="formGroup">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="formGroup">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="formGroup">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="formGroup">
+                    <label for="address">Endereço</label>
+                    <input type="text" id="address" name="address">
+                </div>
+                <div class="formGroup">
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footerLogo">
+            <h1>Innovatech</h1>
+        </div>
+        <div class="socialMedia">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</body>
+</html>
